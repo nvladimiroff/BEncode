@@ -19,6 +19,6 @@ library
   exposed-modules:     BEncode
   -- other-modules:
   other-extensions:    OverloadedStrings, TemplateHaskell, TypeFamilies
-  build-depends:       base >=4.8 && <4.9, containers >=0.5 && <0.6, bytestring >=0.10 && <0.11, attoparsec >=0.13 && <0.14, http-types >=0.8 && <0.9, lens, cryptohash
+  build-depends:       base >=4.8 && <4.9, containers >=0.5 && <0.6, bytestring >=0.10 && <0.11, attoparsec >=0.13 && <0.14, http-types >=0.8 && <=0.9, lens, cryptohash
   hs-source-dirs:      src
   default-language:    Haskell2010
