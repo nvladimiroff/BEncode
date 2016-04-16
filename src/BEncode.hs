@@ -1,5 +1,5 @@
 {-# LANGUAGE OverloadedStrings, TemplateHaskell, TypeFamilies #-}
-module BEncode where
+module BEncode(BEncode(..), _BString, _BInt, _BList, _BDict, encode, bencoded, infoHash)  where
 
 import qualified Data.Map as M
 import qualified Data.ByteString.Char8 as B
